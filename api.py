@@ -13,15 +13,13 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-@app.route('/api/v1/medicine', methods=['GET'])
+@app.route('/api/v1/medicamento', methods=['GET'])
 
-def getInformacoes():
+def getInfo():
     
     medicamento = []
     
     nome_medicamento = request.args.get('nome')
-    
-    print (nome_medicamento)
     
     html_doc = urlopen("https://www.tuasaude.com/{}/".format(nome_medicamento)).read()
     
