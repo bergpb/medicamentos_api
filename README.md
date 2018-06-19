@@ -11,7 +11,7 @@ Pronto após isso rode o projeto com o comando:
 > <code>python api.py</code>
 
 E acesse através da url:
-> [http://localhost:5000/api/v1/medicine?nome=dipirona](http://localhost:5000/api/v1/medicine?nome=dipirona)
+> [http://localhost:5000/api/v1/medicamento?nome=dipirona](http://localhost:5000/api/v1/medicamento?nome=dipirona)
 
 O nome do medicamento é repassado pela url como mostrado no exemplo acima.
 Achou bugs ou teria uma forma de melhorar? Abra uma issue e mande um pull request, open source é vida.
